@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #eeeeee;
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-card {
+  background-color: white;
+  box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  height: auto;
+  width: 30vw;
+}
+.icon {
+  background-color: #ffc500;
+  border-radius: 50%;
+  margin-left: 1.2rem;
+  height: 40px;
+  width: 40px;
+  transform: translateY(-330%);
+}
+.fa-glasses {
+  font-size: 1rem;
+  text-align: center;
+  margin-top: 0.7rem;
+  margin-left: 0.7rem;
+  transform: translateY(0);
+}
+.name {
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 1rem;
+  margin-left: 2rem;
+}
+.name span {
+  font-size: 1rem;
+  text-transform: capitalize;
+  color: #b7b2b2;
+}
+.img-cont {
+  clip-path: polygon(0% 16.67%, 100% 2.71%, 100% 60.78%, 0% 73.38%);
+  height: 400px;
+}
+.img-cont img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    
+}
+.profile-details {
+  margin-top: -5rem;
+  margin-bottom: 2rem;
+  margin-left: 2rem;
+  line-height: 2.5;
+}
+.tags {
+  display: flex;
+  align-items: center;
+  justify-items: flex-start;
+}
+.fa-circle {
+  font-size: 0.5rem;
+  color: #ffc500;
+  margin-right: 1rem;
+}
+.profile-details span {
+  color: #b7b2b2;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
